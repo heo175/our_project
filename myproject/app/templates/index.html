@@ -1,0 +1,10 @@
+<a href="{%url 'new'%}">
+    <button>글 작성하기</button>
+</a>
+<br>
+{%for i in blogs.all %}
+    <a href="detail/{{i.id}}">
+    제목 : {{i.title}}
+    </a>
+    <br>
+{%endfor%}

@@ -1,0 +1,14 @@
+<h1>detail.html</h1>
+
+<p>제목 : {{blog.title}}</p>
+<p>내용 : {{blog.body}}</p>
+<p>날짜 : {{blog.date}}</p>
+<p>좋아요 : {{blog.like}}</p>
+
+<a href="/update/{{blog.id}}">
+    <button>수정하기</button>
+</a>
+
+<a href="/delete/{{blog.id}}">
+    <button>삭제하기</button>
+</a>
